@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  console.log('App component is rendering');
+  
   const [formData, setFormData] = useState({
     username: '',
     password: ''
@@ -9,8 +11,7 @@ function App() {
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
 
-  // Debug: Log to console to check if component is mounting
-  console.log('App component is rendering');
+  console.log('App component state initialized');
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
