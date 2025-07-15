@@ -9,6 +9,9 @@ function App() {
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
 
+  // Debug: Log to console to check if component is mounting
+  console.log('App component is rendering');
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
