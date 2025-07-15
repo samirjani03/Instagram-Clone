@@ -61,6 +61,8 @@ function App() {
     alert('Facebook login simulation - This is a clone for demonstration purposes');
   };
 
+  console.log('App component about to render JSX');
+
   return (
     <div className="min-h-screen bg-instagram-light-gray flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
