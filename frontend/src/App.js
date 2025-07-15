@@ -64,7 +64,7 @@ function App() {
         <div className="bg-white border border-instagram-border rounded-sm p-10 mb-2">
           {/* Instagram Logo */}
           <div className="flex justify-center mb-8">
-            <h1 className="text-5xl font-bold text-instagram-dark-gray tracking-tight" style={{fontFamily: 'Billabong, cursive'}}>
+            <h1 className="instagram-logo">
               Instagram
             </h1>
           </div>
